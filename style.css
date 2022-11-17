@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    background-color: skyblue !important;
+    font-family:'Gill Sans', 'Trebuchet MS', sans-serif;
+  }
+
+  .box {
+    box-shadow: 0px 0px 20px 20px #307c8d;
+    background-color: whitesmoke ;
+    padding: 15px;
+  }
+
+  .number {
+    width: 100%;
+    border: none;
+    outline: none; 
+    background: none;
+    margin: 10px 0px;
+    text-align: right;
+    box-shadow: 1px 1px 1px #9dcfcc, -1px -1px 1px#9dcfcc;
+  }
+
+  .btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    margin: 5px 0;
+    box-shadow: 1px 1px 1px #9dcfcc, -1px -1px 1px #ebeff5;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+    color: rgb(134, 199, 225);
+  }
+
+  .number {
+    height: 50px;
+    font-size: 25px;
+  }
